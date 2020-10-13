@@ -2,23 +2,7 @@ public class Task {
     private String name;
     private String description;
     private int priority;
-    Person person;
-
-    public void setPerson(Person person) {
-        this.person = person;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public void setPriority(int priority) {
-        this.priority = priority;
-    }
+    private Person person;
 
     public Task(String name, String description) {
         this.name = name;
